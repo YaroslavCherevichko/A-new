@@ -16,6 +16,8 @@ class TrigonometryCalculator
         // Calculate cosine
         double cosine = Math.Cos(radians);
         Console.WriteLine("Cosine: " + cosine);
-
+        // Calculate tangent
+        double tangent = Math.Tan(radians);
+        Console.WriteLine("Tangent: " + tangent);
     }
 }
