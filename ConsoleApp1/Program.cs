@@ -5,7 +5,7 @@ class TrigonometryCalculator
 {
     static void Main()
     {
-        double angle = 45; // Angle in degrees
+        double angle = 55; // Angle in degrees
 
         // Convert angle to radians
         double radians = angle * Math.PI / 180;
