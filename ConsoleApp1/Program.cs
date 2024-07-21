@@ -13,7 +13,9 @@ class TrigonometryCalculator
         // Calculate sine
         double sine = Math.Sin(radians);
         Console.WriteLine("Sine: " + sine);
+        // Calculate cosine
+        double cosine = Math.Cos(radians);
+        Console.WriteLine("Cosine: " + cosine);
 
-      
     }
 }
