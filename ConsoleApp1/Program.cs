@@ -1,2 +1,19 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using System;
+
+class TrigonometryCalculator
+{
+    static void Main()
+    {
+        double angle = 45; // Angle in degrees
+
+        // Convert angle to radians
+        double radians = angle * Math.PI / 180;
+
+        // Calculate sine
+        double sine = Math.Sin(radians);
+        Console.WriteLine("Sine: " + sine);
+
+      
+    }
+}
